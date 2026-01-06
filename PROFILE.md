@@ -41,7 +41,7 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
+| Applied/Renewed |  ✅ |
 | Copilot Access | ⏳ |
 | Expires | <!-- Date --> |
 
@@ -53,7 +53,7 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Education Plan Active | ⏳ |
+| Education Plan Active |  ✅ |
 | Joined Course Team | ⏳ |
 | Expires | <!-- Date --> |
 
