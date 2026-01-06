@@ -22,9 +22,9 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | `https://github.com/________` | ⏳ |
-| **Figma** | `@________` | ⏳ |
-| **CodePen** | `https://codepen.io/________` | ⏳ |
+| **GitHub** | https://github.com/BrigidSkojec | ✅ |
+| **Figma** | @Brigid Skojec | ✅ |
+| **CodePen** | https://codepen.io/Brigid-Skojec | ✅ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
