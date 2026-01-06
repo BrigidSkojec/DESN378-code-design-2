@@ -63,7 +63,9 @@ Update it once, keep it consistent everywhere.
 
 ## About Me
 
-*Optional: A sentence or two about your design interests. This could seed your eventual portfolio bio.*
+I am interested in branding and design for businesses. 
+Currently exploring UX and Web design to add to my skillset. Along
+with anything else that could add to my abilities or knowledge.
 
 <!-- 
 Example: "I'm drawn to motion design and systems thinking. 
