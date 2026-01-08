@@ -1,7 +1,7 @@
 # DESN 378: Code + Design 2
 
 🔗 **[Learning Log](https://brigidskojec.github.io/DESN378-code-design-2/))**
-🔗 **[DESN368 Portfolio]((https://excusemeproductlandingpage.netlify.app/)** _FYI, this is just the URL to your repo; if it's still on Netlify, then use that. _
+🔗 **[DESN368 Portfolio](https://excusemeproductlandingpage.netlify.app/)** _FYI, this is just the URL to your repo; if it's still on Netlify, then use that. _
 
 ---
 
