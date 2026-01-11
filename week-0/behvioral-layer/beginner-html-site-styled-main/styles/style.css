@@ -17,13 +17,13 @@ p, li {
 
 
 html {
-  background-color: #00539F;
+  background-color: #fd0780;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #FF9500;
+  background-color: #8392bd;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
@@ -39,3 +39,19 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+button {
+  color: #f4f4f4;
+  font-family: Georgia, Arial;
+  
+}
+
+.rando-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 16px;
+  border-radius: 5px;
+  background-color: #49294c;
+}
+
+/* I used chat GPT to help me remember to style the button. I fear I have forgotten most of it. I also wasn't sure if we were supposed to style with JavaScript...but I have no idea how to do that */
