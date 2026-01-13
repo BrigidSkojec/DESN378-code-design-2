@@ -24,6 +24,50 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 Update this section each week with observations, breakthroughs, and questions.
 
+# Learning Log
+​
+## Week 0
+​
+### What I Learned
+I would say all of it was new for me. I would say the thing I learned is how to make a variable and give it a value. With the let and const functions. 
+let allows you to reassign the value, and const does not. I believe it would be let variable = value. I can also feel myself teetering on the edge of understanding.
+It is so confusing to me right now, but it is almost like the concepts and formatting are on the tip of my tongue. Which makes me hopeful I will get to a place 
+where I am more comfortable.
+​
+​
+### What Was Hard
+ It is a bit overwhelming, seeing that I have forgotten so much information from Web 1. I do not know the best way to refresh that knowledge. And it worries me that having forgotten
+ how to do a majority of HTML and CSS will negatively impact my ability to learn Java. The behavioral layer assignment, was hard for me, because I feel like a lot of different code
+ was thrown at me, and I ended up spending too much time trying to understand some parts that I skipped through others.
+​
+​
+### How I Used AI
+I used ChatGPT to explain how different parts of the code worked, and to help explain parts of the tutorial I didn't understand. I also used it to help me remember how to do some styling with CSS that I forgot. 
+​
+​
+### What's Still Unclear
+I don't even know what to say because so much is still unclear to me. I think the main thing I'd like to understand is formatting. How do we know where to put stuff and when? What is the best way to read JavaScript and interpret the different parts? It can be so much to look at, I don't know where to start.
+
+​
+​
+### Work Completed (Week 0)
+​
+**Engage**
+- [x] Portfolio Audit
+​
+**Learn**
+- [x] Console Explorer
+- [x] Codedex Console Fundamentals
+​
+**Reflect**
+- [x] Visual Notes: Variables and Strings
+​
+**Build**
+- [x] The Setup
+- [x] The Behavioral Layer
+​
+---
+
 ### Week 1: Systems That Respond
 *Coming soon...*
 
