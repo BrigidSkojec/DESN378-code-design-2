@@ -68,6 +68,45 @@ I don't even know what to say because so much is still unclear to me. I think th
 ​
 ---
 
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+I learned more about document.querySelector and how to use it. Although I am still confused about everything, that part is starting to make more sense to me.
+​
+​
+### What Was Hard
+Not sure where to start. Most of it was challenging for me, but I think it comes down to my lack of understanding of the fundamentals. And, without that base, it causes me to panic and start spiraling. 
+There are just so many little things to add or think about. And with there being different ways to go about stuff with the storyteller assignment, I was trying so hard to understand specific parts, and making myself more confused. 
+​
+​
+### How I Used AI
+Initially, I was using ChatGPT to explain to me how things worked or to break down assignments into smaller steps for me to follow. 
+Eventually, IO did have to switch to Copilot to help me make the storyteller assignment. Because I was so confused. 
+​
+​
+### What's Still Unclear
+How, exactly, the click function works. How to set that up properly. I really just want to say all of it is unclear. But I am just in a stuck place, and I will get out of it. Hopefully, things will start clicking for me. 
+
+### Work Completed (Week 1)
+
+**Engage**
+- [x] VS Code Theme Setup
+
+**Learn**
+- [x] Codedex.io Variables
+- [x] HTML Academy 
+
+**Practice**
+- [x] The Story Teller
+
+**Build**
+- [x] Portfolio Migration
+- [x] Portfolio in Figma + Style Tile
+
+**Reflect**
+
 ### Week 1: Systems That Respond
 *Coming soon...*
 
