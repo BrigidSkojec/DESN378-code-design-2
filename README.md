@@ -68,6 +68,43 @@ I don't even know what to say because so much is still unclear to me. I think th
 ​
 ---
 
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+
+​
+​
+### What Was Hard
+<!-- What frustrated you? What didn't make sense? -->
+​
+​
+### How I Used AI
+<!-- Did you use Copilot, ChatGPT, etc.? How did it help or not help? -->
+​
+​
+### What's Still Unclear
+<!-- What questions do you still have? What needs more practice? -->
+
+### Work Completed (Week 1)
+
+**Engage**
+- [ ] VS Code Theme Setup
+
+**Learn**
+- [ ] Codedex.io Variables
+- [ ] HTML Academy 
+
+**Practice**
+- [ ] The Story Teller
+
+**Build**
+- [ ] Portfolio Migration
+- [ ] Portfolio in Figma + Style Tile
+
+**Reflect**
+
 ### Week 1: Systems That Respond
 *Coming soon...*
 
