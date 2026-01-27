@@ -1,0 +1,102 @@
+
+/* =================================
+   Design Tokens — Brigid's Portfolio
+   ================================= */
+
+/* ---------------------------------
+   1. Color Primitives
+   --------------------------------- */
+.color-primitives {
+  /* Grey Scale */
+  --grey-00: #ffffff;
+  --grey-10: #d9dde5;
+  --grey-20: #f0dffa;
+  --grey-30: #9e98be;
+  --grey-40: #8880a5;
+  --grey-50: #564e71;
+  --grey-60: #38304b;
+  --grey-70: #2b283c;
+  --grey-80: #101010;
+  --grey-90: #000000;
+  
+  /* Blue Scale */
+  --blue-00: #dbeaff;
+  --blue-10: #c2dbff;
+  --blue-30: #739eda;
+  --blue-40: #477ac2;
+  --blue-60: #033f63;
+  --blue-80: #0c2f45;
+  
+  /* Blue-Grey */
+  --blue-grey-20: #5a6b8e;
+}
+
+/* ---------------------------------
+   2. Color Tokens (Light Mode)
+   --------------------------------- */
+:root {
+  /* Brand Colors */
+  --brand-primary10: var(--blue__blue30);
+  --brand-secondary20: var(--blue__blue60);
+  --brand-accent30: var(--blue__blue10);
+  --brand-accent50: #ffbf33;
+  
+  /* Neutral Colors */
+  --neutrals-neutral00: var(--grey__grey00);
+  --neutrals-neutral90: var(--grey__grey90);
+}
+
+/* ---------------------------------
+   3. Color Tokens (Dark Mode)
+   --------------------------------- */
+[data-theme="dark"] {
+  /* Brand Colors */
+  --brand-primary-10: var(--blue-blue-30);
+  --brand-secondary-20: var(--grey-grey-30);
+  --brand-accent-30: var(--blue-blue-10);
+  --brand-accent-50: #ffbf33;
+  
+  /* Neutral Colors */
+  --neutrals-neutral-00: var(--grey-grey-50);
+  --neutrals-neutral-90: #f6ecf9;
+}
+
+/* ---------------------------------
+   4. Typography Tokens
+   --------------------------------- */
+:root {
+  /* Font Families */
+  --fontfamily-fontfamily: Alexandria;
+  --fontfamily-titlefontfamily: Bagel Fat One;
+  
+  /* Font Sizes */
+  --textsize-fontsizeS: 10;
+  --textsize-fontsizeMS: 20;
+  --textsize-fontsizeM: 24;
+  --textsize-fontsizeL: 32;
+  --textsize-fontsizeXL: 36;
+  --textsize-fontsizeXXXL: 64;
+  
+  /* Font Weights */
+  --textweight-fontweightlight: light;
+  --textweight-fontweightdefault: regular;
+  --textweight-fontweightheavy: bold;
+  
+  /* Line Heights */
+  --lineheight-1: 22;
+  --lineheight-2: 27;
+  --lineheight-3: auto;
+}
+
+/* ---------------------------------
+   5. Spacing Tokens
+   --------------------------------- */
+:root {
+  --xs: 8;
+  --s: 16;
+  --M: 24;
+  --L: 32;
+  --XL: 40;
+  --XXL: 56;
+  --XXXL: 72;
+}

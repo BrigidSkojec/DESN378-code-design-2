@@ -1,0 +1,556 @@
+@import"./variables.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* colors */
+--main-color:#739EDA;
+--secondary-color:#FFBF33;
+
+/* font families */
+--body-font: 'Alexandria', sans-serif;
+--header-font: 'Bagel Fat One', serif;
+
+/* font sizes */
+--font-size-body: 20px;
+--font-size-sm: 16px;
+--font-size-h1: 64px;
+--font-size-h2: 36px;
+--font-size-lg: 32px;
+--font-size-h3: 24px;
+  /* mobile size */
+--font-size-mobody: 10px;
+--font-size-mosm: 13px;
+--font-size-mologo: 22px;
+--font-size-moh1: 32px;
+--font-size-moh2: 20px;
+--font-size-moh3: 18px;
+}
+
+body {
+  color: white
+}
+#content-container {
+  background: 
+  linear-gradient(#033F63 1%,
+  var(--main-color)
+  );
+  padding-top: 90px;
+}
+
+#header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 84px;
+background-color: white;
+padding: 10px 20px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 10;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wordmark {
+font-family: var(--header-font);
+font-size: var(--font-size-h2);
+color: var(--secondary-color);
+}
+
+#header-img {
+width: 42px;
+margin-left: 25px;
+margin-right: 10px;
+}
+
+#nav-bar {
+display: flex;
+justify-content: end;
+gap: 72px;
+padding-right: 50px; 
+}
+
+.nav-link {
+text-decoration: none;
+color: black;
+font-family: var(--body-font);
+font-size: var(--font-size-sm);
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+}
+
+.intro-image {
+margin-left: 50px;
+margin-right: 50px;
+width: 400px;
+border-radius: 5px;
+border: 5px solid #02283F;
+}
+
+.intro-words {
+  text-align: center;
+  margin: 35px auto;
+  max-width: 600px;
+}
+
+.intro-title {
+font-size: var(--font-size-h1);
+font-family: var(--header-font);
+padding-bottom: 40px;
+}
+
+.intro-paragraph {
+  font-size: var(--font-size-lg);
+}
+
+#About {
+  padding: 100px 0;
+  width: 100%;
+}
+
+.article-container {
+max-width: 1250px;
+margin: 0 auto;
+}
+
+#About article {
+background-color: white;
+border-radius: 5px;
+max-width: 1250px;
+margin: 0 auto;
+padding: 0;
+overflow: hidden;
+}
+
+
+h2 {
+  color: var(--secondary-color);
+  background-color: #033F63;
+  font-family: var(--header-font);
+  font-size: var(--font-size-h2);
+  padding: 20px 40px;
+  margin: 0;
+}
+
+
+.auto-content {
+display: flex;
+align-items: center;
+gap: 10%;
+}
+
+.auto-text {
+max-width: 800px;
+margin-right: 30px;
+color: black;
+font-family: var(--body-font);
+line-height: 27px;
+}
+
+.auto-image {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  display: block;
+}
+
+.tab-p {
+  margin-left: 65px;
+  
+}
+
+.quote {
+  font-weight: 300;
+  margin-left: 100px;
+  margin-top: 15px;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+
+.real-content {
+display: flex;
+align-items: center;
+gap: 10%;
+}
+
+.real-text {
+max-width: 800px;
+margin-right: 30px;
+color: black;
+font-family: var(--body-font);
+line-height: 27px;
+  margin-top: 50px;
+}
+
+.real-image {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: block;
+}
+
+.iframe-wrapper {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  max-width: 1030px;
+  overflow: hidden;
+  border-radius: 7px;
+  margin: 0 auto; 
+}
+.iframe-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#Options {
+  margin-top: 70px;
+  
+}
+
+.options-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.free {
+  background-color: white;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 5px solid #C2DBFF;
+}
+
+h3 {
+  color: var(--secondary-color);
+  font-family: var(--header-font);
+  font-size: var(--font-size-h3);
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.lists {
+  font-family: var(--body-font);
+  font-size: var(--font-size-sm);
+  color: black;
+  font-weight: 300;
+  margin: 20px 15px;
+}
+
+.price {
+  font-family: var(--body-font);
+  font-size: var(--font-size-body);
+  color: black;
+  font-weight: 200;
+  text-align: center;
+}
+
+.monthly {
+  background-color: white;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 5px solid #FFBF33;
+}
+
+.yearly {
+  background-color: white;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 5px solid #E09900;
+}
+
+.join-today {
+  font-family: var(--body-font);
+  font-size: var(--font-size-lg);
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600
+}
+
+.email-p {
+  font-family: var(--body-font);
+  font-size: var(--font-size-body);
+  font-weight: 300;
+  text-align: center;
+}
+
+.email-submit {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+#email {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-family: var(--body-font);
+  font-size: var(--font-size-sm);
+  border: 2px solid var(--secondary-color);
+  width: 250px;
+}
+
+#submit {
+ padding: 5px 15px;
+ font-family: var(--body-font);
+ font-size: var(--font-size-sm);
+ background-color: var(--secondary-color);
+ border-radius: 7px;
+}
+
+footer {
+  background-color: white;
+  padding: 20px 40px;
+  border-top: 1px solid #ddd;
+  font-family: var(--body-font);
+}
+
+.footer-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  font-size: var(--font-size-sm);
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+ color: var(--secondary-color);
+}
+
+.copyright {
+  color: black;
+  font-size: var(--font-size-sm);
+  font-weight: 300;
+}
+
+/* Mobile overrides */
+
+@media (max-width: 500px) {
+ #content-container {
+   padding-top: 40px;
+ }
+ 
+  #header {
+width: 500px;
+height: 45px;
+  }
+
+  #nav-bar {
+  display: flex;
+  gap: 25px;
+  padding-right: 10px;
+  }
+
+  .nav-link {
+    font-size: var(--font-size-mosm);
+  }
+
+  .logo-wordmark {
+   font-size: var(--font-size-mologo); 
+  }
+
+  #header-img {
+  width: 26px;
+  margin-left: 10px;
+  }
+
+  /* by the way, I have purposefully made changes to some of the font sizes and stuff. I wanted to integrate the gradient in mobile too. And change the format of the excuses excuses anyway */
+
+.intro-image {
+margin-left: 22px;
+margin-right: 15px;
+width: 135px;
+}
+
+.intro-words {
+ max-width: 300px;
+}
+
+.intro-title {
+font-size: var(--font-size-moh1);
+padding-bottom: 15px;
+}
+
+.intro-paragraph {
+font-size: var(--font-size-mosm);
+}
+
+#About {
+  padding: 30px 0;
+}
+
+.article-container {
+max-width: 400px;
+}
+
+#About article {
+max-width: 400px;
+}
+
+
+h2 {
+  font-size: var(--font-size-moh2);
+  padding: 10px 20px;
+}
+
+.auto-content {
+gap: 5px;
+}
+
+.auto-text {
+max-width: 315px;
+margin-right: 10px;
+font-size: var(--font-size-mobody);
+line-height: 18px;
+}
+
+.auto-image {
+  max-width: 100px;
+}
+
+.auto-image img {
+  width: 100%;
+  height: auto;
+}
+
+.tab-p {
+  margin-left: 30px;
+  margin-top: 10px;
+  
+}
+
+.quote {
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.real-content {
+gap: 5px;
+}
+
+.real-text {
+max-width: 315px;
+margin-right: 10px;
+font-size: var(--font-size-mobody);
+line-height: 18px;
+margin-top: 10px;
+}
+
+.real-image {
+  max-width: 100px;
+}
+
+.real-image img {
+  width: 100%;
+  height: auto;
+}
+
+.iframe-wrapper {
+  max-width: 400px; 
+}
+
+#Options {
+  margin-top: 50px;
+  
+}
+
+.options-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.free, .monthly, .yearly {
+  max-width: 250px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: var(--font-size-moh3);
+}
+
+.lists {
+  font-size: var(--font-size-mosm);
+  margin: 10px 5px;
+}
+
+.price {
+  font-size: var(--font-size-mosm);
+}
+
+.join-today {
+  font-size: var(--font-size-moh3);
+  margin-top: 30px;
+}
+
+.email-p {
+  font-size: var(--font-size-mosm);
+}
+
+.email-submit {
+  margin-top: 20px;
+}
+
+#email {
+  padding: 5px 5px;
+  font-size: var(--font-size-mosm);
+  width: 200px;
+}
+
+#submit {
+ padding: 5px 10px;
+ font-size: var(--font-size-mosm);
+}
+
+footer {
+  padding: 10px 20px;
+}
+
+.footer-content {
+flex-direction: column;
+gap: 10px;
+align-items: center;
+text-align: center;
+}
+
+.footer-links {
+  gap: 10px;
+  font-size: var(--font-size-mosm);
+  flex-wrap: wrap;
+}
+
+
+.copyright {
+  font-size: var(--font-size-mobody);
+}
+
+}
