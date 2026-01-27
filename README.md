@@ -70,7 +70,7 @@ I don't even know what to say because so much is still unclear to me. I think th
 
 # Learning Log
 ​
-## Week 2
+## Week 1
 ​
 ### What I Learned
 I learned more about document.querySelector and how to use it. Although I am still confused about everything, that part is starting to make more sense to me.
@@ -105,7 +105,48 @@ How, exactly, the click function works. How to set that up properly. I really ju
 - [x] Portfolio Migration
 - [x] Portfolio in Figma + Style Tile
 
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+I learned about conditionals, if and else, and else if. And how you can use them to enable an action to happen under the right circumstances. As well as different operators, logical and comparison. I also learned more about querySelector.
+​
+​
+### What Was Hard
+The variables in Figma, although I basically understand them and how to use them. It is just the kind of thing I need to learn how to actually apply properly to my designs. I get a little confused.
+I was also confused with the storyteller tutorial, the last step with forEach, and the function updateProgress stuff. To make the dots light up and progress, that stuff was the only part I didn't quite get.
+​
+​
+### How I Used AI
+I only used AI to help me make the storyteller tutorial loop back to the first image. Since that was something I still didn't know how to and it didn't explain it. But I first guessed on how I thought. WHen it was wrong, I got AI's help to fix what I'd done. 
+​
+​
+### What's Still Unclear
+The forEach, and making things like dots light up and stay that way as you interact with it, and then reset. That code was confusing for me. 
+
+### Work Completed (Week 1)
+
+**Engage**
+- [x] VS Code Theme Setup
+
+**Learn**
+- [x] Codedex.io Conditionals
+- [ ] figma variables
+
+**Practice**
+- [x] The Switch
+
+**Build**
+- [x] The Foundation
+- [x] Portfolio in Figma + Style Tile
+
 **Reflect**
+- [ ] Visual Notes: Week 2---
+      - I have not done this yet, seeing that I didn't plan for it and ran short on time. I do plan on doing it, it will just be late. 
+
+
+​
 
 ### Week 1: Systems That Respond
 *Coming soon...*
