@@ -8,8 +8,8 @@
 
 :root {
   /* colors */
---main-color:#739EDA;
---secondary-color:#FFBF33;
+--main-color: var(--brand-primary);
+--secondary-color: var(--brand-accent);
 
 /* font families */
 --body-font: 'Alexandria', sans-serif;
@@ -36,8 +36,8 @@ body {
 }
 #content-container {
   background: 
-  linear-gradient(#033F63 1%,
-  var(--main-color)
+  linear-gradient(var(--gradient-secondary) 1%,
+  var(--gradient-primary)
   );
   padding-top: 90px;
 }
@@ -98,7 +98,7 @@ margin-left: 50px;
 margin-right: 50px;
 width: 400px;
 border-radius: 5px;
-border: 5px solid #02283F;
+border: 5px solid var(--blue-80);
 }
 
 .intro-words {
@@ -139,7 +139,7 @@ overflow: hidden;
 
 h2 {
   color: var(--secondary-color);
-  background-color: #033F63;
+  background-color: var(--brand-secondary);
   font-family: var(--header-font);
   font-size: var(--font-size-h2);
   padding: 20px 40px;
@@ -232,7 +232,7 @@ line-height: 27px;
   max-width: 350px;
   padding: 20px;
   border-radius: 15px;
-  border: 5px solid #C2DBFF;
+  border: 5px solid var(--blue-10);
 }
 
 h3 {
@@ -264,7 +264,7 @@ h3 {
   max-width: 350px;
   padding: 20px;
   border-radius: 15px;
-  border: 5px solid #FFBF33;
+  border: 5px solid var(--brand-accent);
 }
 
 .yearly {
@@ -272,7 +272,7 @@ h3 {
   max-width: 350px;
   padding: 20px;
   border-radius: 15px;
-  border: 5px solid #E09900;
+  border: 5px solid var(--brand-accent);
 }
 
 .join-today {
@@ -318,7 +318,7 @@ h3 {
 footer {
   background-color: white;
   padding: 20px 40px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--grey-10);
   font-family: var(--body-font);
 }
 
@@ -553,4 +553,69 @@ text-align: center;
   font-size: var(--font-size-mobody);
 }
 
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+  }
+
+  #header {
+    background-color: var(--header-bg);
+  }
+
+  .nav-link {
+    color: var(--header-text);
+  }
+
+  #About article {
+    background-color: var(--bg-secondary);
+  }
+
+  .auto-text {
+    color: var(--text-primary);
+  }
+
+  .real-text {
+    color: var(--text-primary);
+  }
+
+  .lists {
+    color: var(--text-primary);
+  }
+
+  .price {
+    color: var(--text-primary);
+  }
+
+  .free {
+    background-color: var(--bg-secondary);
+  }
+
+  .monthly {
+    background-color: var(--bg-secondary);
+  }
+
+  .yearly {
+    background-color: var(--bg-secondary);
+  }
+
+  footer {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+  }
+
+  .footer-links a {
+    color: var(--header-text);
+  }
+
+  .copyright {
+    color: var(--header-text);
+  }
+
+  a:hover {
+    color: var(--brand-accent);
+  }
 }

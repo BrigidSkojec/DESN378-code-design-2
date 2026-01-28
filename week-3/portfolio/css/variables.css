@@ -6,7 +6,7 @@
 /* ---------------------------------
    1. Color Primitives
    --------------------------------- */
-.color-primitives {
+:root {
   /* Grey Scale */
   --grey-00: #ffffff;
   --grey-10: #d9dde5;
@@ -29,21 +29,24 @@
   
   /* Blue-Grey */
   --blue-grey-20: #5a6b8e;
-}
 
-/* ---------------------------------
-   2. Color Tokens (Light Mode)
-   --------------------------------- */
-:root {
+  /* ---------------------------------
+     2. Color Tokens (Light Mode)
+     --------------------------------- */
   /* Brand Colors */
-  --brand-primary10: var(--blue__blue30);
-  --brand-secondary20: var(--blue__blue60);
-  --brand-accent30: var(--blue__blue10);
-  --brand-accent50: #ffbf33;
+  --bg-primary: white;
+  --bg-secondary: white;
+  --text-primary: black;
+  --text-secondary: black;
+  --header-bg: white;
+  --header-text: black;
+  --brand-primary: #739eda;
+  --brand-secondary: #033f63;
+  --brand-accent: #ffbf33;
   
-  /* Neutral Colors */
-  --neutrals-neutral00: var(--grey__grey00);
-  --neutrals-neutral90: var(--grey__grey90);
+  /* Gradient Colors (stays same in light and dark mode) */
+  --gradient-primary: #739eda;
+  --gradient-secondary: #033f63;
 }
 
 /* ---------------------------------
@@ -51,14 +54,15 @@
    --------------------------------- */
 [data-theme="dark"] {
   /* Brand Colors */
-  --brand-primary-10: var(--blue-blue-30);
-  --brand-secondary-20: var(--grey-grey-30);
-  --brand-accent-30: var(--blue-blue-10);
-  --brand-accent-50: #ffbf33;
-  
-  /* Neutral Colors */
-  --neutrals-neutral-00: var(--grey-grey-50);
-  --neutrals-neutral-90: #f6ecf9;
+  --bg-primary: #38304b;
+  --bg-secondary: #2b283c;
+  --text-primary: #f6ecf9;
+  --text-secondary: #9e98be;
+  --header-bg: #2b283c;
+  --header-text: #f6ecf9;
+  --brand-primary: #739eda;
+  --brand-secondary: #c2dbff;
+  --brand-accent: #ffbf33;
 }
 
 /* ---------------------------------
