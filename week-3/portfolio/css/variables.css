@@ -36,10 +36,10 @@
   /* Brand Colors */
   --bg-primary: white;
   --bg-secondary: white;
-  --text-primary: black;
-  --text-secondary: black;
+  --text-primary: #ffbf33;
+  --text-secondary: #ffbf33;
   --header-bg: white;
-  --header-text: black;
+  --header-text: #ffbf33;
   --brand-primary: #739eda;
   --brand-secondary: #033f63;
   --brand-accent: #ffbf33;
