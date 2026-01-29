@@ -35,6 +35,27 @@ body {
   color: var(--text-primary);
   background-color: var(--bg-primary);
 }
+
+/* Light Mode */
+[data-theme="light"] {
+
+     --text-primary: black;
+     --bg-primary: white;
+     --brand-secondary: var(--blue-80);
+  }
+
+
+
+/* Dark Mode */
+[data-theme="dark"] {
+      --text-primary: #f6ecf9;
+      --bg-primary: #38304b;
+      --brand-secondary: #739eda;
+    }
+  
+  
+
+
 #content-container {
   background: 
   linear-gradient(var(--gradient-secondary) 1%,
@@ -106,18 +127,18 @@ border: 5px solid var(--blue-80);
   text-align: center;
   margin: 35px auto;
   max-width: 600px;
+  color: white;
 }
 
 .intro-title {
 font-size: var(--font-size-h1);
 font-family: var(--header-font);
 padding-bottom: 40px;
-color: var(--secondary-color);
+color: var(--brand-accent); 
 }
 
 .intro-paragraph {
   font-size: var(--font-size-lg);
-  color: white;
 }
 
 #About {
@@ -557,69 +578,3 @@ text-align: center;
   font-size: var(--font-size-mobody);
 }
 
-}
-
-/* Dark Mode */
-[data-theme="dark"] {
-  body {
-    background-color: var(--bg-primary);
-    color: var(--text-primary);
-  }
-
-  #header {
-    background-color: var(--header-bg);
-  }
-
-  .nav-link {
-    color: var(--header-text);
-  }
-
-  #About article {
-    background-color: var(--bg-secondary);
-  }
-
-  .auto-text {
-    color: var(--text-primary);
-  }
-
-  .real-text {
-    color: var(--text-primary);
-  }
-
-  .lists {
-    color: var(--text-primary);
-  }
-
-  .price {
-    color: var(--text-primary);
-  }
-
-  .free {
-    background-color: var(--bg-secondary);
-  }
-
-  .monthly {
-    background-color: var(--bg-secondary);
-  }
-
-  .yearly {
-    background-color: var(--bg-secondary);
-  }
-
-  footer {
-    background-color: var(--bg-secondary);
-    color: var(--text-primary);
-  }
-
-  .footer-links a {
-    color: var(--header-text);
-  }
-
-  .copyright {
-    color: var(--header-text);
-  }
-
-  a:hover {
-    color: var(--brand-accent);
-  }
-}
