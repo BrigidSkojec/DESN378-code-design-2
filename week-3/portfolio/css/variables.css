@@ -36,13 +36,14 @@
   /* Brand Colors */
   --bg-primary: white;
   --bg-secondary: white;
-  --text-primary: #ffbf33;
-  --text-secondary: #ffbf33;
+  --text-primary: black;
+  --text-secondary: black;
   --header-bg: white;
-  --header-text: #ffbf33;
+  --header-text: black;
   --brand-primary: #739eda;
-  --brand-secondary: #033f63;
+  --brand-secondary:  var(--blue-80);
   --brand-accent: #ffbf33;
+  --secondary-color: #ffbf33;
   
   /* Gradient Colors (stays same in light and dark mode) */
   --gradient-primary: #739eda;

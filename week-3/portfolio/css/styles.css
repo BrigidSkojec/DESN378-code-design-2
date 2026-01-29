@@ -112,10 +112,12 @@ border: 5px solid var(--blue-80);
 font-size: var(--font-size-h1);
 font-family: var(--header-font);
 padding-bottom: 40px;
+color: var(--secondary-color);
 }
 
 .intro-paragraph {
   font-size: var(--font-size-lg);
+  color: white;
 }
 
 #About {
