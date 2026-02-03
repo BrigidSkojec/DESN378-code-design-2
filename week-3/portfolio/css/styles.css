@@ -119,6 +119,23 @@ font-family: var(--body-font);
 font-size: var(--font-size-sm);
 }
 
+.theme-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 40px;
+}
+
+.theme-toggle {
+  font-family: var(--body-font);
+  font-size: var(--font-size-sm);
+  padding: 5px 15px;
+  color: var(--blue-80);
+  background-color: var(--brand-accent);
+  border-radius: 7px;
+
+  
+}
+
 .intro-content {
   display: flex;
   align-items: center;
@@ -367,6 +384,10 @@ footer {
   display: flex;
   gap: 30px;
   font-size: var(--font-size-sm);
+}
+
+.links-footer {
+  color: var( --brand-primary);
 }
 
 .footer-lvar(--header-text)a {
