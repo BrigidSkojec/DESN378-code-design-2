@@ -146,7 +146,47 @@ The forEach, and making things like dots light up and stay that way as you inter
       - I have not done this yet, seeing that I didn't plan for it and ran short on time. I do plan on doing it, it will just be late. 
 
 
+# Learning Log
 ​
+## Week 3
+​
+### What I Learned
+I learned how to use localStorage to save preferences in the system so that the browser remembers and keeps it even after a refresh. 
+​
+​
+### What Was Hard
+The variables.css and moving that stuff from Figma to code are still confusing to me. But it was hard to figure out how to get the code to apply properly. As well as what to include in the CSS for it to work. I think I have mostly gotten it now. 
+​
+​
+### How I Used AI
+When doing the localStorage. It wasn't working, and I didn't know why. I asked Copilot and found out it was because I had code in there that defined light mode as the default. However, it was coded was causing it to override the saveTheme to reset to the default 
+​
+​
+### What's Still Unclear
+The variable.css and those tokens are still confusing, especially the naming of them, which makes my head spin. I am also still forgetting how to use CSS, and that makes it hard to style the button. ​
+
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [x] variables.css exists
+- [x] Color tokens defined
+- [x] Typography tokens defined
+- [x] Spacing tokens defined
+- [x] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [x] Uses data-theme on <html>
+- [x] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [x] Theme saved to localStorage
+- [x] Theme persists on refresh
+- [ ] System preference used on first visit
+
+**Deployment**
+- [ ] Deployed to GitHub Pages
+- [ ] Repository is public
+
 
 ### Week 1: Systems That Respond
 *Coming soon...*
