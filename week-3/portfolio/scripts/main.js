@@ -2,9 +2,12 @@
 const savedTheme = localStorage.getItem('theme');
 
 if (savedTheme) {
+  // User has made a choice — respect it
   document.documentElement.dataset.theme = savedTheme;
 } else {
-  document.documentElement.dataset.theme = "light"; // Default to light if no saved theme
+  // No saved choice — check system preference
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.dataset.theme = prefersDark ? 'dark' : 'light';
 }
 
 const toggle = document.querySelector(".theme-toggle");

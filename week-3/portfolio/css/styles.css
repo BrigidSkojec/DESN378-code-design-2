@@ -6,6 +6,15 @@
   padding: 0;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .fade-in,
+  .slide-up,
+  .theme-transition {
+    transition: none;
+    animation: none;
+  }
+}
+
 :root {
   /* colors */
 --main-color: var(--brand-primary);
