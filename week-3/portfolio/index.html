@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <script>
+      // Set theme IMMEDIATELY before anything renders
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="scripts/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Bagel+Fat+One&display=swap" rel="stylesheet">
@@ -115,10 +119,11 @@
 submit an excuse to be added!</p>
        <div class="email-submit">
         <input id="email" type="email" name="email" placeholder="Enter your email address" required>
-        <input type="submit" id="submit" vlaue="Submit">
+        <input type="submit" id="submit" value="Submit">
         </div>
       </form>
     </main>
+    <script src="scripts/main.js" defer></script>
   </body>
   <footer>
    <div class="footer-content">
