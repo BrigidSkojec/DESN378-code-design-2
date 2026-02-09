@@ -10,7 +10,7 @@ if (savedTheme) {
   document.documentElement.dataset.theme = prefersDark ? 'dark' : 'light';
 }
 
-const toggle = document.querySelector(".theme-toggle");
+const toggle = document.querySelector(".theme-trigger");
 
 toggle.addEventListener("click", function () {
   /* the below works, because it is a short hand for if else. The const currentTheme = document.documentElement.getAttribute("data-theme");
