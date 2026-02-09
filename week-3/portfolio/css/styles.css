@@ -125,7 +125,7 @@ font-size: var(--font-size-sm);
   padding: 15px 40px;
 }
 
-.theme-toggle {
+.theme-trigger {
   font-family: var(--body-font);
   font-size: var(--font-size-sm);
   padding: 5px 15px;
@@ -135,6 +135,65 @@ font-size: var(--font-size-sm);
 
   
 }
+
+
+.sun {
+  fill: var(--grey-70);
+  
+}
+
+.ring {
+  fill: none;
+  stroke: var(--grey-70);
+}
+
+.moon-ring {
+  fill: var(--grey-70)
+}
+
+.moon {
+  fill: var(--grey-20);
+}
+
+.monitor {
+  fill: none;
+  stroke: var(--grey-70);
+}
+
+.monitor-screen {
+  fill: var(--grey-70);
+}
+
+
+
+.theme-dropdown {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 40px;
+}
+
+.theme-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 5;
+  background: var(--bg-primary);
+}
+
+.theme-dropdown:focus-within .theme-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+
+
+
+
+
 
 .intro-content {
   display: flex;
