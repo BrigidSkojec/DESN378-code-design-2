@@ -187,6 +187,25 @@ The variable.css and those tokens are still confusing, especially the naming of 
 - [ ] Deployed to GitHub Pages
 - [ ] Repository is public
 
+# Learning Log
+​
+## Week 4
+​
+### What I Learned
+I learned how to hand code svgs; it was weird trying to figure that out for sure. Circles and rects aren't too bad.
+​
+​
+### What Was Hard
+Figuring out how to plan for the SVGs and find the points. I was just having a hard time picturing that stuff.
+​
+​
+### How I Used AI
+To fix my paths to be polygons from my figma file. 
+​
+​
+### What's Still Unclear
+Still the best way to figure out points for hand coding SVG's. It is hard for me to do.
+
 
 ### Week 1: Systems That Respond
 *Coming soon...*
