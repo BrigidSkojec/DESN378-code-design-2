@@ -189,7 +189,7 @@ The variable.css and those tokens are still confusing, especially the naming of 
 
 # Learning Log
 ​
-## Week #
+## Week 4
 ​
 ### What I Learned
 I learned how to hand code svgs; it was weird trying to figure that out for sure. Circles and rects aren't too bad.
