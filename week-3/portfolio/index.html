@@ -33,7 +33,9 @@
     <span>Theme</span>
   </button>
   <div class="theme-menu">
-    <button data-theme="system">
+    <ul class="theme-list">
+  <li>
+    <button class="theme-option" data-theme="system">
       <svg width="24" height="24" viewBox=" 0 0 24 24">
   <rect class="monitor"
     x="2" y="4" width="20" height="16"   
@@ -42,8 +44,8 @@
     x="4" y="6" width="16" height="12"   
         />
 </svg> OS default
-    </button>
-    <button data-theme="light">
+    </button></li>
+    <li> <button class="theme-option" data-theme="light">
       <svg width="24" height="24" viewBox="0 0 24 24">
   <circle class="sun" cx="12" cy="12" r="5" />
   <circle class="ring" cx="12" cy="12"r="10" />
@@ -92,7 +94,10 @@
   </g>
 </svg> Light
     </button>
-    <button data-theme="dark">
+  </li>
+  
+  <li>
+    <button class="theme-option" data-theme="dark">
       <svg width="24" height="24" viewBox="0 0 24 24">
     <circle class="moon-ring" cx="12" cy="12" r="10" />
   <g>
@@ -105,6 +110,8 @@
   />
 </svg> Dark
     </button>
+  </li>
+</ul>
   </div>
 </div>
 
