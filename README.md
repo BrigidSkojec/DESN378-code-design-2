@@ -201,10 +201,32 @@ Figuring out how to plan for the SVGs and find the points. I was just having a h
 ​
 ### How I Used AI
 To fix my paths to be polygons from my figma file. 
+
+### What's Still Unclear
+Still the best way to figure out points for hand coding SVG's. It is hard for me to do.
+
+
+# Learning Log
+​
+## Week 6 and 7
+​
+### What I Learned
+<!-- SVG's, dropdown, svg paths -->
+So, I have learned a lot about gsap and animating with it. This stuff does make more sense to me than pretty much anything else we have been learning. Although still a little hard to get used to.
+​
+​
+### What Was Hard
+Thinking about the space and container SVGs are in in terms of moving them around with gsap. I can't picture that stuff well. Like, how am I supposed to know how to move it exactly how I picture? Also, this whole scrolly telling thing, it is hard to wrap my head around how to do certain things. Or just how I a gooing to do it in general.
+​
+​
+### How I Used AI
+I used chat until my free month was up. Then I switched to Gemini. I used it to help with questions I had when animating some SVGs with gsap. I will also certainly need to use it to make this scrolly telling page. Because I do not know what I am doing, or it feels that way. I think my brain decided to split into 4, and each piece takes a turn each day. 
 ​
 ​
 ### What's Still Unclear
-Still the best way to figure out points for hand coding SVG's. It is hard for me to do.
+How to set up this scrolly telling project with code. I haven't really used HTML or CSS at all since Web 1 almost a year ago. So, it worries me to have to do that now, as I feel kind of stuck. And it definitely makes me hesitant about stuff I want to add to the project, because I worry about causing myself a lot of anguish later. And I am pretty burnt out and stressed out about so many things that don't just involve school. Which is very frustrating to me. Because I really want to just dedicate myself to school and personal design projects, I have joined a digital magazine of sorts. Sometimes I think I spread myself too thin, but most of the time I just feel incapable of doing things like everyone else. 
+​
+
 
 
 ### Week 1: Systems That Respond
