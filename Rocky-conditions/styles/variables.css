@@ -35,8 +35,13 @@
   --brand-colors-accent-lightblue: #6bb3f2;
   --brand-colors-accent-darkblue: #0487d9;
   --brand-colors-text-color-secondary: var(--yellow-orange-red-50);
-  --neutrals-nuetral-00: #ffffff;
-  --neutrals-nuetral-99: #0e0000;
+  --neutrals-neutral-00: #ffffff;
+  --neutrals-neutral-99: #0e0000;
+
+  --color-bg: var(--brand-colors-bg-color);
+  --color-text: var(--brand-colors-text-color-secondary);
+  --color-surface: var(--neutrals-neutral-00);
+  --color-text-strong: var(--neutrals-neutral-99);
 }
 
 /* Collection name: Colors */
@@ -49,23 +54,28 @@
   --brand-colors-accent-lightblue: #6bb3f2;
   --brand-colors-accent-darkblue: #0487d9;
   --brand-colors-text-color-secondary: var(--grey-grey-00);
-  --neutrals-nuetral-00: var(--yellow-orange-red-50);
-  --neutrals-nuetral-99: #0e0000;
+  --neutrals-neutral-00: var(--yellow-orange-red-50);
+  --neutrals-neutral-99: #0e0000;
+
+  --color-bg: var(--brand-colors-bg-color);
+  --color-text: var(--brand-colors-text-color-secondary);
+  --color-surface: var(--neutrals-neutral-00);
+  --color-text-strong: var(--neutrals-neutral-99);
 }
 
 /* Collection name: Typography */
 /* Mode: Mode 1 */
 :root {
-  --fonts-font-family-body: Sigmar;
-  --fonts-font-family-headers: Inclusive Sans;
-  --fonts-font-family-accent: Rubik Glitch;
-  --font-size-font-size-xxxl: 64;
-  --font-size-font-size-xl: 48;
-  --font-size-font-size-l: 32;
-  --font-size-font-size-m: 20;
-  --font-size-font-size-s: 14;
-  --font-size-font-size-xs: 10;
-  --line-space-title: 80;
+  --fonts-font-family-body: "Sigmar", sans-serif;
+  --fonts-font-family-headers: "Inclusive Sans", sans-serif;
+  --fonts-font-family-accent: "Rubik Glitch", sans-serif;
+  --font-size-font-size-xxxl: 64px;
+  --font-size-font-size-xl: 48px;
+  --font-size-font-size-l: 32px;
+  --font-size-font-size-m: 20px;
+  --font-size-font-size-s: 14px;
+  --font-size-font-size-xs: 10px;
+  --line-space-title: 80px;
 }
 
 
